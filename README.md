@@ -78,3 +78,81 @@ s.codePointAt(0); // 72 : ES6, works for codepoints > 16 bits
 s.concat(" !"); // "Hello ,World !" :  just use + operator instead
 "A".repeat(5); // "AAAAA" : concatenate n copies
 ```
+
+## JavaScript Operators
+
+### Arithmetic Operators
+
+- `+` Addition
+- `-` Subtraction
+- `*` Multiplication
+- `/` Division
+- `%` Modulus (Remainder)
+- `**` Exponentiation (ES6)
+
+### Assignment Operators
+
+- `=` Assignment
+- `+=` Addition assignment
+- `-=` Subtraction assignment
+- `*=` Multiplication assignment
+- `/=` Division assignment
+- `%=` Modulus assignment
+- `**=` Exponentiation assignment (ES6)
+- `<<=` Left shift assignment
+- `>>=` Right shift assignment
+- `>>>=` Zero-fill right shift assignment
+- `&=` Bitwise AND assignment
+- `|=` Bitwise OR assignment
+- `^=` Bitwise XOR assignment
+
+### Comparison Operators
+
+- `==` Equal to
+- `!=` Not equal to
+- `===` Equal to and same type
+- `!==` Not equal to or not same type
+- `>` Greater than
+- `<` Less than
+- `>=` Greater than or equal to
+- `<=` Less than or equal to
+
+### Logical Operators
+
+- `&&` Logical AND
+- `||` Logical OR
+- `!` Logical NOT
+
+### Bitwise Operators
+
+- `&` Bitwise AND
+- `|` Bitwise OR
+- `^` Bitwise XOR
+- `~` Bitwise NOT
+- `<<` Left shift
+- `>>` Sign-propagating right shift
+- `>>>` Zero-fill right shift
+
+### Conditional (Ternary) Operator
+
+- `condition ? exprIfTrue : exprIfFalse`
+
+### Typeof Operator
+
+- `typeof` Returns a string representing the data type of an operand.
+
+### Instanceof Operator
+
+- `instanceof` Returns true if an object is an instance of a particular constructor.
+
+### Delete Operator
+
+- `delete` Deletes a property from an object or an element from an array.
+
+### Comma Operator
+
+- `,` Evaluates multiple expressions and returns the result of the last expression.
+
+### Void Operator
+
+- `void` Evaluates an expression and returns `undefined`.
